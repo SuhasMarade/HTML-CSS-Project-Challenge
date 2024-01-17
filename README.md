@@ -6,4 +6,4 @@
 
 ## Project 2 - Credit Card (3d flip)
 
-![screenrecording](./Project2/project-view/flippingCard.mp4)
+![[screenrecording](./Project2/project-view/flippingCard.png)](./Project2/project-view/flippingCard.mp4)
