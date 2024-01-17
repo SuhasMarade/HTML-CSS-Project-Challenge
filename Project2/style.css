@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(27, 1, 27);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.circle-box {
+    width: 50%;
+    height: 80%;
+    background-color: transparent;
+    position: relative;
+}
+.circle {
+    background-color: rgb(198, 29, 150);
+    position: absolute;
+    border-radius: 50%;
+    width: 340px;
+    height: 340px;
+    
+}
+.circle2 {
+    bottom: 0;
+    right: 0;
+    box-shadow:  100px 0px 100px -50px white inset;
+}
+.circle1 {
+    box-shadow: -100px 0px 100px -50px white inset;
+}
+.card{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    background-color: transparent;
+    border-radius: 20px;
+    perspective: 1000px;
+}
+.card-inner {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: 0.8s;
+    transform-style: preserve-3d;
+}
+.card:hover .card-inner {
+    transform: rotateY(180deg);
+}
+.card-front, .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.card-front {
+    box-shadow: 0 25px 45px rgb(0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.card-back {
+    box-shadow: 0 25px 45px rgb(0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(25px);
+    transform: rotateY(180deg);
+    border-radius: 20px;
+}
+.masterCardLogo-img {
+    width: 100px;
+}
+.chip-img {
+    width: 60px;
+    height: 55px;
+}
+.card-front {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    
+}
+.item1 {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -25px;
+}
+.item2 {
+    margin: 20px;
+    
+}
+.item3 {
+    margin-left: 20px;
+    grid-column: span 2;
+    position: relative;
+    top: -20px
+}
+.item3 > p {
+    font-size: 1.5rem;
+}
+.item4 {
+    margin-left: 20px;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+.item5{
+    position: relative;
+    top: -25px;
+    font-size: 13px;
+}
+.item5 > p {
+    font-size: 30px;
+}
+.card-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-back > p {
+    text-align: justify;
+    font-size: 11px;
+    margin: 20px 30px;
+}
+.magnetic-strip {
+    background-color: black;
+    width: 100%;
+    height: 55px;
+}
+.cvv-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 500px;
+}
+.blocking-strip {
+    background-color: whitesmoke;
+    height: 50px;
+    width: 380px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.grey-strip {
+    width: 100%;
+    background-color: grey;
+    margin: 2px 0;
+    height: 8px;
+}
+.cvv-number {
+    background-color: whitesmoke;
+    width: 40px;
+    height: 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-end-end-radius: 5px;
+    border-start-end-radius: 5px;
+}
