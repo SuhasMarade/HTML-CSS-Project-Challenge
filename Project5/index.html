@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Dark/Light Mode</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+        <h1>Press Me to change</h1>
+        <p>Click the Button 👇 to switch between Dark/Light Mode</p>
+   
+        <div class="btn-container">
+            <div class="btn">Click</div>
+        </div>
+ 
+    <script>
+        let btn = document.getElementsByClassName("btn")
+        console.log(btn)
+        btn[0].addEventListener("click", () => {
+            btn[0].classList.toggle("press")
+            document.body.classList.toggle("dark-mode")
+        })
+    </script>
+</body>
+</html>

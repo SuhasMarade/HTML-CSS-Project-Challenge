@@ -17,3 +17,7 @@
 ## Project 4 - Loading animation
 
 ![](./Project4/project-view/loader.gif)
+
+## Project 5 - Toggle Dark/Light Mode
+
+![](./Project5/project-view/toggleDarkMode.gif)
