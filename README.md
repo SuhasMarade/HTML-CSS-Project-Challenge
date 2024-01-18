@@ -13,3 +13,7 @@
 ## Project 3 - Neumorphism Pagination Design
 
 ![screenshot](./Project3/project-img/neumorphism.png)
+
+## Project 4 - Loading animation
+
+![](./Project4/project-view/loader.gif)
