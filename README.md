@@ -21,3 +21,6 @@
 ## Project 5 - Toggle Dark/Light Mode
 
 ![](./Project5/project-view/toggleDarkMode.gif)
+
+## Project 6 - Drag and Drop
+![](./Project6/project-view/drapAndDrop.gif)
