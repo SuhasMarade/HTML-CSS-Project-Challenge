@@ -24,3 +24,6 @@
 
 ## Project 6 - Drag and Drop
 ![](./Project6/project-view/drapAndDrop.gif)
+
+## Project 7 - Dropdown
+![dropdownGif](./Project7/project-view/dropDown.gif)

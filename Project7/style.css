@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dropdown {
+    background-color: lightgray;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.dropdown:hover {
+    background-color: rgb(154, 154, 154);
+}
+.panel {
+    background-color: azure;
+    padding: 5px 10px;
+    display: none;
+}
+.active {
+    display: block;
+}
