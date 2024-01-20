@@ -8,7 +8,7 @@
 
 ![screenshot](./Project2/project-view/flippingCard.png)
 
-![](./Project2/project-view/flippingCard.gif)
+![flippingCardGif](./Project2/project-view/flippingCard.gif)
 
 ## Project 3 - Neumorphism Pagination Design
 
@@ -16,14 +16,17 @@
 
 ## Project 4 - Loading animation
 
-![](./Project4/project-view/loader.gif)
+![loaderGif](./Project4/project-view/loader.gif)
 
 ## Project 5 - Toggle Dark/Light Mode
 
-![](./Project5/project-view/toggleDarkMode.gif)
+![toggleDarkModeGif](./Project5/project-view/toggleDarkMode.gif)
 
 ## Project 6 - Drag and Drop
-![](./Project6/project-view/drapAndDrop.gif)
+![dragAndDropGif](./Project6/project-view/dragAndDrop.gif)
 
 ## Project 7 - Dropdown
 ![dropdownGif](./Project7/project-view/dropDown.gif)
+
+## Project8 - Carousel
+![carouselGif](./Project8/project-view/carousel.gif)
